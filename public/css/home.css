@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px; 
+    /* box-sizing: border-box; */
+   
+}
+body{
+  
+   
+    /* height: 100vh; */
+    /* width: 100vw; */
+    color: white;
+    font-family:  'Lato', sans-serif;
+    /* opacity: 1; */
+}
+.topi{
+    /* background: url('img/back.jpg'); */
+    /* background: url(img/backgrd.png); */
+    background: url(../img/backgrd.png);
+    height: 110vh; 
+    background-position:center;
+}
+.left{
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: -12px;
+        left: 33px;
+}
+.left div{
+    text-align: center;
+    line-height: 0;
+    font-size: 22px;
+}
+
+
+.left img{
+    width: 118px;
+    filter: invert(100%);
+    
+  
+    
+}
+.mid{
+    /* border: 2px solid rgb(0, 93, 232); */
+    /* display: inline-block; */
+    display: block;
+    width: 42%;
+    margin: 0px auto;
+
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 33px;
+    /* border: 2px solid rgb(11, 210, 27); */
+}
+
+.navbar li{
+    display: inline-block;
+    color: white;
+    padding:17px 13px;
+    font-size: 20px;
+}
+.navbar li a{
+   text-decoration: none;
+    color: white;
+ 
+   
+}
+.navbar li a:hover,.navbar li a.active{
+   text-decoration: underline;
+    /* color: rgb(255, 132, 0); */
+    
+    background: -webkit-linear-gradient(#8e56fd, #eb7a98);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+   
+}
+
+.btn{
+    margin: 0 9px;
+    color: white;
+    background-color: black;
+    padding: 6px 11px;
+    border: 2px solid #8e56fd;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    /* font-size: 16px; */
+    cursor: pointer;
+    font-family:  'Lato', sans-serif;
+}
+.btn:hover{
+    /* background-color: rgb(187, 102, 10); */
+    background: -webkit-linear-gradient(#8e56fd, #eb7a98);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+.container{
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 45%;
+    margin: 87px 81px;
+    padding: 57px 55px;
+    border-radius: 28px;
+    float: right;
+  
+}
+.form-groum input{
+      
+      text-align: center;
+    width: 400px;
+    display: block;
+    margin: 5px auto;
+    padding: 7px 25px;
+    border: 3px solid #9258f9;
+    border-radius: 22px;
+    font-size: 1rem;
+    font-family:  'Lato', sans-serif;
+
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.container button{
+   display: block;
+   width: 86%;
+   margin: 17px auto;
+}
+
+
+/* newww      */
+
+.middle{
+    /* margin-top: 50px; */
+    background-color: white;
+  margin-bottom: 75px;
+    color: black;
+  
+}
+
+.mimg{
+    width: 30%;
+    margin: 15px 30px;
+    float: left;
+}
+.nimg{
+    width: 30%;
+    margin: 15px 30px;
+    float: right;
+}
+h2{
+    margin-left: 452px;
+    margin-top: 100px;
+    padding: 20px;
+    width: 50%;
+    font-size: 45px;
+}
+.spara{
+   /* background-color: aqua; */
+   margin-left: 10px;
+    margin-top: 100px;
+    padding: 30px;
+    width: 50%;
+}
+p{
+    line-height: 2;
+   padding-left: 30px;
+}
+
+.Dot{
+    padding-left: 50px;
+    width: 10%;
+    margin-bottom: 22px;
+}
+.about{
+    height: 500px;
+}
+.about h1{
+    color: black;
+    margin-left: 35px;
+    padding: 30px;
+    line-height: 1.5;
+    background: url(http://netizensstore.com/gymfit_theme/html/multipage_6/assets/img/main-page/about-header-line.png) left bottom / 250px no-repeat;
+   
+}
+.about-box span{
+    color:#8e56fd;
+}
+.about-para{
+    color:black;
+    margin-left: 35px;
+    padding: 20px;
+}
+.about img{
+    float: right;
+    width: 75%;
+    margin: 30px;
+}
+.about-imggg{
+    float: right;
+    width: 50%;
+}
+.about-box{
+    width: 50%;
+    float: left;
+}
+
+
+.container h1{
+    /* color: #8e56fd; */
+    font-size: 62px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#8e56fd, #eb7a98);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    /* background-color: #8e56fd; */
+ 
+  
+}
+
+        /* about section  */
+
+.courses{
+    /* border: 2px solid red; */
+   margin: 0 auto;
+    width: 90%;
+    height: 880px;
+    padding: 40px 0;
+    background-color: #f8f8f9;
+    margin-bottom: 30px;
+   
+}
+.courses h2{
+    width: 100%;
+    color: black;
+    margin: 25px auto;
+    text-align: center;
+    padding: 0;
+    background: url(http://netizensstore.com/gymfit_theme/html/multipage_6/assets/img/main-page/about-header-line.png) center bottom / 260px no-repeat;
+
+
+}
+.courses h2 span{
+    color: #8e56fd;
+   
+}
+.courses p{
+    color: black;
+    text-align: center;
+    margin: 30px auto;
+    line-height: 25px;
+    width: 60%;
+}
+
+.box{
+    color: black;
+     display: flex;
+     flex-wrap: wrap;
+     /* border: 2px solid rgb(3, 73, 252); */
+     justify-content: center;
+     text-align: center;
+     justify-content: space-between;
+     /* gap: 22px; */
+
+
+   
+    
+}
+
+.box1{
+    /* width: 30%;
+    margin: 12px;
+    height: 250px; */
+    /* border: 2px solid rgb(234, 230, 0); */
+    background-color: #ffffff;
+    width: 30%;
+    height: 270px;
+    border-radius:15px;
+    margin: 20px 0;
+   
+    
+}
+.box1:hover{
+    background-image: linear-gradient(to top, #9258f9, #c253db, #dc58c0, #e767aa, #e8799b);
+    /* transition: 0.5s all ease; */
+    color: #ffffff;
+}
+.box1:hover p{
+  
+    color: #ffffff;
+}
+
+
+.course-img{
+    padding: 10px;
+    margin: 10px;
+}
+
+.box1:hover img{
+    filter: grayscale(1) brightness(0) invert(1) opacity(1);
+    -webkit-filter: grayscale(1) brightness(0) invert(1) opacity(1);
+    -moz-filter: grayscale(1) brightness(0) invert(1) opacity(1);
+}
+
+.course-content p{
+        color: #616783;
+}
+
+
+            /* trainers */
+
+.Trainers{
+        /* border: 2px solid blue; */
+        color: black;
+}
+
+.Trainers h2{
+    width: 100%;
+    color: black;
+    margin: 25px auto;
+    text-align: center;
+    padding: 0;
+    background: url(http://netizensstore.com/gymfit_theme/html/multipage_6/assets/img/main-page/about-header-line.png) center bottom / 260px no-repeat;
+
+
+}
+.Trainers h2 span{
+    color: #8e56fd;
+   
+}
+.Trainers p{
+    color: #616783;
+    text-align: center;
+    margin: 30px auto;
+    line-height: 25px;
+    width: 60%;
+}
+.tra{
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+.men{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    height: 445px;
+}
+
+
+        /* contact  */
+
+.contact{
+    /* border: 2px solid blue; */
+    color: black;
+}
+
+.contact h2{
+width: 100%;
+color: black;
+margin: 25px auto;
+text-align: center;
+padding: 0;
+background: url(http://netizensstore.com/gymfit_theme/html/multipage_6/assets/img/main-page/about-header-line.png) center bottom / 260px no-repeat;
+
+
+}
+.contact h2 span{
+color: #8e56fd;
+
+}
+.Trainers p{
+color: #616783;
+text-align: center;
+margin: 30px auto;
+line-height: 25px;
+width: 60%;
+}
+
+.cont{
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+
+.form{
+    border: 2px solid #9258f9;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 0 35px;
+}
+.form-groum{
+    margin: 15px;
+}
+
+
+.btn a{
+    color: white;
+}
